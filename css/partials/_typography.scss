@@ -1,0 +1,12 @@
+@mixin typeface-1($size, $device: desktop) {
+
+    //H3
+        @if $size == h3 and $device == desktop {
+            font-size: 36px;
+            line-height: 120%;
+        }@else if $size == h3 and $device == mobile {
+            font-size: 24px;
+            line-height: 120%;
+        }
+    
+}
